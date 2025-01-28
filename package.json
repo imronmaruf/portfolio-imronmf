@@ -19,6 +19,7 @@
         "vite": "^6.0"
     },
     "dependencies": {
-        "@tabler/icons-webfont": "^3.29.0"
+        "@tabler/icons-webfont": "^3.29.0",
+        "sweetalert2": "^11.6.13"
     }
 }

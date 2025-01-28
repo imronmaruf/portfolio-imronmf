@@ -25,12 +25,12 @@
     <!-- CSS files -->
     <link href="{{ asset('be/dist/css/tabler.min.css?1692870487') }}" rel="stylesheet" />
     {{-- <link href="{{ asset('be/dist/css/tabler-flags.min.css?1692870487') }}" rel="stylesheet" /> --}}
-    <link href="{{ asset('be/dist/css/tabler-payments.min.css?1692870487') }}" rel="stylesheet" />
-    <link href="{{ asset('be/dist/css/tabler-vendors.min.css?1692870487') }}" rel="stylesheet" />
+    {{-- <link href="{{ asset('be/dist/css/tabler-payments.min.css?1692870487') }}" rel="stylesheet" />
+    <link href="{{ asset('be/dist/css/tabler-vendors.min.css?1692870487') }}" rel="stylesheet" /> --}}
     <link href="{{ asset('be/dist/css/demo.min.css?1692870487') }}" rel="stylesheet" />
 
     <!-- CSS via npm -->
-    @vite(['resources/js/tabler-icon.js'])
+    @vite(['resources/js/tabler-icon.js', 'resources/js/app.js'])
 
     @stack('css')
     <style>
@@ -45,6 +45,7 @@
         }
     </style>
 </head>
+
 
 <body>
 
@@ -64,13 +65,6 @@
             @include('be.layouts.footer')
         </div>
     </div>
-
-    <!-- Libs JS -->
-    <script src="{{ asset('be/dist/libs/apexcharts/dist/apexcharts.min.js?1692870487') }}" defer></script>
-    {{-- <script src="{{ asset('be/dist/libs/jsvectormap/dist/js/jsvectormap.min.js?1692870487') }}" defer></script>
-    <script src="{{ asset('be/dist/libs/jsvectormap/dist/maps/world.js?1692870487') }}" defer></script>
-    <script src="{{ asset('be/dist/libs/jsvectormap/dist/maps/world-merc.js?1692870487') }}" defer></script> --}}
-    <script src="{{ asset('be/dist/libs/list.js/dist/list.min.js?1692870487') }}" defer></script>
     <!-- Tabler Core -->
     <script src="{{ asset('be/dist/js/tabler.min.js?1692870487') }}" defer></script>
     <script src="{{ asset('be/dist/js/demo.min.js?1692870487') }}" defer></script>

@@ -63,8 +63,8 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link {{ Route::is('dashboard.index') ? 'active' : '' }}"
-                        href="{{ route('dashboard.index') }}">
+                    <a class="nav-link {{ Route::is('profile.index') ? 'active' : '' }}"
+                        href="{{ route('profile.index') }}">
                         <span class="nav-link-icon d-md-none d-lg-inline-block">
                             <i class="ti ti-user-circle icon"></i>
                         </span>

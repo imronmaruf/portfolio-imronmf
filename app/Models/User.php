@@ -22,6 +22,7 @@ class User extends Authenticatable
         'profile_image',
         'resume_file',
         'github_url',
+        'instagram_url',
         'linkedin_url',
     ];
 

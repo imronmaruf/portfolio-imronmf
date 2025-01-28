@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('profile_image')->nullable();
             $table->string('resume_file')->nullable();
             $table->string('github_url')->nullable();
+            $table->string('instagram_url')->nullable();
             $table->string('linkedin_url')->nullable();
             $table->timestamps();
         });
